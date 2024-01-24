@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #91da00a5;
+    border-radius: 10px;
+
+}
+header{
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+}
+footer{
+    justify-content: end;
+
+}
+
+.logo, .logo-footer {
+    width: 6%;
+    max-width: 120px;
+}
+
+.title {
+    color: #BB2E4D;
+    text-shadow: 5px 5px 5px #FF9BB3;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-cards{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px;
+}
+
+.board-exterior {
+
+    background-color: #dbeafd;
+    padding: 25px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.board-cards {
+    background-color: #dbeafd89;
+    padding: 40px;
+    /* margin: 20px; */
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #bb2e4db7;
+    margin: 40px;
+    border-radius: 10px;
+    width: 156px;
+    height: 347.5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+}
+.content {
+    width: 156px;
+    height: 347.5px;
+}
+
+
+.card {
+    background-image: url(/images/Reverso_clear_card.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100%;
+    border-radius: 10px;
+}
+
+#card1:hover {
+    background-image: url(/images/Espada.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: 1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card2:hover {
+    background-image: url(/images/Agua.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: 1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card3:hover {
+    background-image: url(/images/Amor.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: 1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card4:hover {
+    background-image: url(/images/Borrar.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: 1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card5:hover {
+    background-image: url(/images/Ilusion.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: 1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card6:hover {
+    background-image: url(/images/Laberinto.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: -1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px -220px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card7:hover {
+    background-image: url(/images/Oscuridad.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: -1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px -220px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card8:hover {
+    background-image: url(/images/Viento.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: -1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px -220px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card9:hover {
+    background-image: url(/images/Salto.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: -1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px -220px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+#card10:hover {
+    background-image: url(/images/Silencio.webp);
+    background-size: cover;
+    scale: 250%;
+    border-radius: 10px;
+    rotate: -1440deg;
+    transition: 1s;
+    /* translate: 600px 250px; */
+    translate: 0px -220px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.531);
+
+}
+.logo:hover{
+    rotate: 3600deg;
+    transition: 8s;
+    scale: 300%;
+    translate: 3000px 0px;
+    /* &hover{
+        rotate: -360deg;
+        translate: -300px 0px;
+        transition: 5s;
+    } */
+    
+}
+.logo-footer:hover{
+    rotate: -3600deg;
+    transition: 8s;
+    scale: 300%;
+    translate: -3000px 0px;
+    /* &hover{
+        rotate: -360deg;
+        translate: -300px 0px;
+        transition: 5s;
+    } */
+    
+}
+
+
